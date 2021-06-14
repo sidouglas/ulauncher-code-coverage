@@ -1,0 +1,31 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Code Coverage",
+  "description": "Code Coverage",
+  "developer_name": "Simon Douglas",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "code-coverage_kw",
+      "type": "keyword",
+      "name": "Code Coverage",
+      "description": "Code Coverage",
+      "default_value": "cc"
+    },
+    {
+      "id": "cc_mapping",
+      "type": "text",
+      "name": "cc - Name to Path mappings",
+      "default_value": ""
+    },
+    {
+      "id": "cc_filepath",
+      "type": "text",
+      "name": "cc - File Path to open",
+      "default_value": "file:///home/USER/PROJECT/%s/coverage/lcov-report/index.html"
+    }
+  ]
+}
